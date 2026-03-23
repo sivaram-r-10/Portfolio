@@ -46,16 +46,23 @@ const projectData = {
     "project1": {
         title: "Thermal Energy Storage Air Conditioning System",
         description: "Designed and developed an Ice Storage Air Conditioning (ISAC) System operating on the Vapor Compression Refrigeration (VCR) cycle using eco-friendly R-600a refrigerant. The system freezes water during off-peak hours to act as a thermal reservoir, later circulating chilled water for air conditioning. Experimental testing showed the system maintained an indoor air temperature of 20°C for nearly four hours during discharge, achieving a Coefficient of Performance (COP) of 0.36, effectively shifting energy consumption to off-peak hours.",
-        images: ["Project-1.2.jpg", "Project-1.3.jpg"], // Add your image file names here
-        videos: [], // Add video paths here, e.g., ["isac-demo.mp4"]
+        images: ["Project-1.2.jpg", "Project-1.3.jpg"], 
+        videos: [], 
         tech: "Thermodynamics, VCR Cycle, R-600a Refrigerant, Heat Transfer, Prototyping"
     },
     "project2": {
         title: "Waste Cold Water Heat Exchanger System",
         description: "Designed a cold energy recovery system to utilize waste cold water from fish processing plants. Utilized SolidWorks for forward and reverse engineering to create a compact, food-grade shell and tube heat exchanger. The system recovers thermal energy from 4°C waste meltwater to pre-cool 36°C municipal water, achieving a 15°C temperature drop. This significantly reduces refrigeration loads on the ice plant, lowering electricity consumption and promoting industrial sustainability.",
-        images: [], // Add your image file names here
-        videos: ["Project-2 video.mp4"], // Add video paths here, e.g., ["hx-flow-test.mp4"]
+        images: [], 
+        videos: ["Project-2 video.mp4"], 
         tech: "SolidWorks, Fluid Dynamics, Shell and Tube Heat Exchanger, Reverse Engineering, Prototyping"
+    },
+    "project3": {
+        title: "Cricket Helmet Impact Test in Explicit Dynamics",
+        description: "Performed a finite element analysis (FEA) to evaluate the structural integrity of a polycarbonate cricket helmet under high-velocity impact. Using ANSYS Explicit Dynamics, I simulated an oak wood ball striking the helmet at 10,000 mm/s. The study analyzed stress distribution, deformation, and energy absorption, confirming a Factor of Safety (FOS) above 1.5. The project followed BS 7928:2013 standards to ensure the design effectively protects players from high-speed ball strikes.",
+        images: ["Project-3.1.png", "Project-3.2.png", "Project-3.3.png", "Project-3.4.png"], // Based on Fig 2 and Fig 7 in your report
+        videos: [], 
+        tech: "ANSYS Workbench, Explicit Dynamics, Finite Element Analysis (FEA), SolidWorks, Material Science (Polycarbonate & Oak)"
     }
 };
 
