@@ -121,10 +121,25 @@ section {
 .glow-1 { width: 500px; height: 500px; background: radial-gradient(circle, var(--neon-purple), transparent 60%); top: 10%; left: -5%; }
 .glow-2 { width: 450px; height: 450px; background: radial-gradient(circle, var(--neon-blue), transparent 60%); bottom: 0; right: -5%; animation-delay: -6s; }
 
+/* --- Updated Glass Badge --- */
 .glass-badge {
-    background: var(--glass-bg); border: 1px solid var(--glass-border); backdrop-filter: blur(10px);
-    padding: 8px 20px; border-radius: 30px; font-size: 0.85rem; color: #c4b5fd;
-    margin-bottom: 25px; display: inline-flex; align-items: center; gap: 10px; box-shadow: 0 0 20px rgba(157, 78, 221, 0.15);
+    background: rgba(10, 10, 20, 0.6);
+    border: 1px solid rgba(157, 78, 221, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 8px 20px; 
+    border-radius: 30px; 
+    font-size: 0.85rem; 
+    color: #e2e8f0;
+    margin-bottom: 25px; 
+    display: inline-flex; 
+    align-items: center; 
+    gap: 8px; 
+    box-shadow: 0 0 20px rgba(157, 78, 221, 0.15), inset 0 0 10px rgba(157, 78, 221, 0.05);
+    letter-spacing: 0.5px;
+}
+
+.glass-badge i {
+    color: var(--siva-accent); 
 }
 
 .title { font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 7vw, 4.5rem); font-weight: 700; line-height: 1.1; margin-bottom: 10px; }
