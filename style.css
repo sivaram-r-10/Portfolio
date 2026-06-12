@@ -453,4 +453,13 @@ footer { padding: 40px; text-align: center; color: var(--text-secondary); border
     .date-tag { align-self: flex-start; }
     .experience-content { padding: 25px; }
     .quote-wrapper { padding: 40px 20px; }
+    /* --- Glittering Starfield Background --- */
+#starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; 
+    pointer-events: none; 
 }
