@@ -455,21 +455,21 @@ footer { padding: 40px; text-align: center; color: var(--text-secondary); border
     .quote-wrapper { padding: 40px 20px; }
     /* --- Glittering Starfield Background --- */
 /* --- Lovable Style Glittering Starfield Background --- */
+/* --- Lovable Style Starfield Background Fix --- */
 #starfield {
-    position: fixed;     /* Keeps the stars pinned safely across the entire viewport */
+    position: fixed;      /* This locks it to the screen so it doesn't push down content */
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: -1;          /* Forces it deep behind all text contents and profile elements */
-    pointer-events: none; /* Allows mouse clicks and gestures to pass straight through */
+    z-index: -9999;       /* Forces it deep behind your profile picture and text */
+    pointer-events: none; /* Allows you to click your buttons right through it */
 }
 
-/* Ensure your document body allows layered layout stacking without adding blank space */
+/* Ensure the main webpage content layers correctly on top */
 body {
     position: relative;
-    overflow-x: hidden;
+    background-color: #06060c !important; /* Keeps your exact dark theme color */
     margin: 0;
     padding: 0;
-    background-color: var(--bg-main, #0a0f1d); /* Falls back safely to your deep dark background color */
 }
